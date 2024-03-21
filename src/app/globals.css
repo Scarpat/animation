@@ -50,3 +50,25 @@
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
+@keyframes wave-animation-front {
+  0% {left: -50%; top: 100%; }
+  65% {left:40%; top: 0%; }
+  100% {left: -50%; top: 100%; }
+}
+@keyframes wave-animation-back {
+  0% {left:80%; top: 100%; }
+  65% {left:-20%; top: 0%; }
+  100% {left:80%; top: 100%; }
+}
+.wave-animation-1{
+  animation-name: wave-animation-front;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.wave-animation-2{
+  animation-name: wave-animation-back;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
